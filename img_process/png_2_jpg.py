@@ -21,6 +21,6 @@ def png2jpg(files_list):
 
 
 if __name__ == '__main__':
-    dir = './dataset_mk/Image/'  # png图片目录
+    dir = './dataset/Image/'  # png图片目录
     files_list = get_all_png_files(dir)
     png2jpg(files_list)

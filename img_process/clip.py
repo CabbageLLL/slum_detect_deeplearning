@@ -123,7 +123,7 @@ class TifCrop:
         del dataset
 
 if __name__ == '__main__':
-    file = r'makassar-esri.tif'
+    file = r'wanlong.tif'
     cropsize = 512
-    savepath = r'.\outpath_makassar'
+    savepath = r'.\outpath_wanlong'
     TifCrop(file,cropsize,savepath).crop_tif()
